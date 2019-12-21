@@ -1,54 +1,68 @@
-# Recast.ly
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## 이번 Sprint의 학습 목표
-- React와 같은 Component 기반 라이브러리를 왜 사용해야 하는지 그 목적을 이해할 수 있다.
-- React components 를 만들 수 있다.
-- React components 를 render 할 수 있다.
-- React code 에서 JSX 와 ES6 를 사용할 수 있다.
-- props 를 이용할 수 있다.
-- 왜 state 가 존재하고, 어떻게 state 를 업데이트 하는지 설명할 수 있다.
-- React components 에서 user events 를 handle 할 수 있다.
-- stateless functional components 와 class components 사이의 차이점을 설명할 수 있다.
-- 3rd party API 를 활용할 수 있다. (이 스프린트에서는, YouTube Data API)
-- 여러 파일에 걸쳐 많은 모듈을 가지고 있는 큰 코드베이스에서도 전체 구조를 이해하고 개발할 수 있다.
+## Available Scripts
 
+In the project directory, you can run:
 
-## Sprint를 시작하기 전 알고있어야 하는 것들
-- DOM 및 Twittler 관련 지식
-- React Components Sprint
+### `npm start`
 
-## Solo parts
-1. React Component 마무리
-2. React component 를 통해 react 핵심개념(props, state, life cycle) 숙지 후 블로깅
-3. 1,2를 다 완료했으면 recast.ly 시작
+Runs the app in the development mode.<br />
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-## Advanced 한 과제들
-- Virtual DOM
-- ES6 module (`import` & `export`)
-- how configure webpack for react (optional)
+The page will reload if you make edits.<br />
+You will also see any lint errors in the console.
 
-## Sprint Office Hour 시간에 발표해볼 과제들
-### Day1
-- life cycle method (visualiztion)
-- state (when do i use state?)
+### `npm test`
 
-### Day2
-- `.bind` method on react
-- Virtual DOM
-- ES6 module (`import` & `export`)
-- how configure webpack for react (optional)
+Launches the test runner in the interactive watch mode.<br />
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-## Sprint 진행 방법
+### `npm run build`
 
-1. 현재 repo를 자신의 Github으로 fork 합니다.
-2. fork된 repo를 git clone 명령어로 자신의 local 환경으로 다운로드합니다.
-3. terminal에 `npm install`을 입력해 dependecy들을 설치합니다.
-4. Leanco에서 Pair Programming 전에 혼자서 진행할 부분을 확인합니다.
-5. Pair분과 함께 Programming을 하며 재밌게 coding합니다.
+Builds the app for production to the `build` folder.<br />
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-## 제출 방법
+The build is minified and the filenames include the hashes.<br />
+Your app is ready to be deployed!
 
-1. student.json 파일에 필요한 정보를 입력합니다.
-2. 주의 - `npm run submit` 하기 이전에 `npm run test`를 하여야 최신 테스트 결과가 반영됩니다.
-3. `npm run test` 이후에 `npm run submit`을 실행시켜 sprint를 제출합니다.
-3. 자신의 github(remote) repo에 push합니다.
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+
+### Analyzing the Bundle Size
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+
+### Making a Progressive Web App
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+
+### Advanced Configuration
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+
+### Deployment
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+
+### `npm run build` fails to minify
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
